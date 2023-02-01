@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 #background{
     height: 725px;
     background-color: bisque;
 }
 body{
     background-color: rgb(246, 244, 248);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgb(231, 11, 84);
@@ -17,10 +22,18 @@ nav a{
     color: rebeccapurple;
     text-align: left;
     text-decoration: none;
+    padding: 35px;
 }
 .home-tittle {
     background-color: blue;
     color: white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    padding-top: 15px;
+
+}
+.msg h2{
+    font-family: Rock Salt;
 }
 #container { 
     max-width: 1600px;
@@ -31,9 +44,13 @@ h4{
 }
 .book, .join{
     background-color: palevioletred;
+    margin-top: 50px;
     color:wheat;
     text-align: center;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius:5px;
 }
 .book:hover{
     background-color: blue;
@@ -43,17 +60,28 @@ h4{
     background-color: red;
     color: white;
 }
-
 .msg {
     background-color: rgb(44, 7, 103);
     color: white;
     width: 100%;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+    padding-bottom: 15px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 footer a{
     background-color: blue;
     color: white;
     text-align: center;
     text-decoration: none;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover{
     background-color: seagreen;
@@ -62,30 +90,42 @@ footer a:hover{
 footer{
     background-color: blue;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .logo{
     width: 80px;
 }
+
+#logo_link {
+    padding-top: 5px;
+}  
 div, hero-img{
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 main section,rivers-img{
-    width: 40%;
-    margin: 0 auto;
+    width: 50%;
+    margin: 200px 0; 
     text-align: center;
+    
 }
 
 .card-img{
-    width: 35%;
+    width: 50%;
+    border: 10px solid blue;
+    text-align: center;
+
+
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 .mountains{
-    width: 30%;
+    width: 50%;
 }
 
 footer p{
