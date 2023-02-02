@@ -5,7 +5,7 @@
 }
 body{
     background-color: rgb(246, 244, 248);
-    font-family: Raleway, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -109,13 +109,15 @@ main section,rivers-img{
     width: 50%;
     margin: 200px 0; 
     text-align: center;
+    margin: 0 auto;
     
 }
 
 .card-img{
     width: 50%;
-    border: 10px solid blue;
     text-align: center;
+    border: 10px solid blue;
+    margin: 0 auto;
 
 
 }
