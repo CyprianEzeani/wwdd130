@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+* {
+    box-sizing: border-box;
+}
 #background{
     height: 725px;
     background-color: bisque;
 }
 body{
     background-color: rgb(246, 244, 248);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Roboto',Arial, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -24,16 +27,16 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
-.home-tittle {
+.home-title {
     background-color: blue;
     color: white;
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Rock Salt', 'Arial', sans-serif;
     font-size: 2em;
     padding-top: 15px;
 
 }
 .msg h2{
-    font-family: Rock Salt;
+    font-family: 'Rock Salt' Arial, sans-serif;
 }
 #container { 
     max-width: 1600px;
@@ -41,6 +44,13 @@ nav a{
 h4{
 
     color: rgb(30, 29, 29);
+    text-align: center;
+}
+.book{
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 .book, .join{
     background-color: palevioletred;
@@ -53,9 +63,12 @@ h4{
     border-radius:5px;
 }
 .book:hover{
-    background-color: blue;
+    background-color: rgb(255, 0, 55);
     color: whitesmoke;
+    text-align: center;
 }
+
+
 .join:hover{
     background-color: red;
     color: white;
@@ -66,6 +79,7 @@ h4{
     width: 100%;
     line-height: 1.5em;
     padding: 35px;
+    margin: 0 auto;
 }
 .msg p{
     padding-bottom: 15px;
@@ -75,7 +89,7 @@ main section img {
     box-sizing: border-box;
 }
 footer a{
-    background-color: blue;
+    background-color: purple;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -95,21 +109,23 @@ footer{
 }
 .logo{
     width: 80px;
+    text-align: left;
 }
 
 #logo_link {
     padding-top: 5px;
 }  
-div, hero-img{
+#hero-img{
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
-main section,rivers-img{
-    width: 50%;
-    margin: 200px 0; 
+main section {
+ /*   width: 50%;
+   margin: 0 auto;
+    margin: 200px 0; */
     text-align: center;
-    margin: 0 auto;
+  
     
 }
 
