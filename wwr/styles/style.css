@@ -170,7 +170,7 @@ main section {
   
     
 }
-.card-img :hover{
+.card-img:hover{
     opacity: .6;
     transform: scale(1.1);
 }
