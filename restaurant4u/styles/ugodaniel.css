@@ -2,12 +2,6 @@
 * {
     box-sizing: border-box;
 }
-#background{
-    height: 725px;
-    background-color: bisque;
-    grid-column: 1/11;
-    grid-row: 4/9;
-}
 body{
     background-color: rgb(137, 137, 138);
     font-family:'Roboto',Arial, sans-serif;
